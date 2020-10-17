@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAAC,mDAAmD;AACnD,mDAAmD;AACnD,mDAAmD;ACFnD,mDAAmD;AACnD,mDAAmD;AACnD,mDAAmD;ACDpD,mDAAmD;AACnD,mDAAmD;AACnD,mDAAmD;AAEnD,AAAA,gBAAgB,GAAG,EAAE,CAAC;EACpB,UAAU,EAAE,IAAI;CACjB;;ACPD,mDAAmD;AACnD,mDAAmD;AACnD,mDAAmD;AAEnD,AAAA,eAAe,CAAC;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,KAAK;EACvB,gBAAgB,EAAE,kCAAkC;EACpD,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC5B",
+    "sources": [
+        "../scss/styles.scss",
+        "../scss/components/_index.scss",
+        "../scss/components/_navigation.scss",
+        "../scss/components/_background-hero.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

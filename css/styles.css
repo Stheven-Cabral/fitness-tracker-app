@@ -1,0 +1,25 @@
+/* ============================================= */
+/*            Sub-Folder Imports                 */
+/* ============================================= */
+/* ============================================= */
+/*            Components Imports                 */
+/* ============================================= */
+/* ============================================= */
+/*                 Navigation                    */
+/* ============================================= */
+.navigation-list > li {
+  list-style: none;
+}
+
+/* ============================================= */
+/*          Background Image for Hero            */
+/* ============================================= */
+#hero-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url("../../images/chalk-prep.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=styles.css.map */
