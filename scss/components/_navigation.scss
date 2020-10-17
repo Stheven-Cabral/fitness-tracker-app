@@ -4,25 +4,36 @@
 /* ============================================= */
 
 .navigation-container {
-  background-color: maroon;
+  background-color: $color-1;
+  height: 60px;
 }
 
 .logo-container {
   p {
     margin: 0px;
+    padding-left: 20px;
+    padding-top: 18px;
+    color: white;
   }
 }
 
-.navigation-links {
+.links-container {
+  background-color: $color-1;
   width: 100vw;
   height: 200px;
   margin: 0px;
   padding: 0px;
   position: absolute;
   left: 0;
-  top: 100px;
+  top: 60px;
+}
+
+.navigation-links {
+  margin-top: 50px;
+  padding: 0px;
   text-align: center;
   > li {
+    margin-top: 10px;
     list-style: none;
     color: white;
   }
