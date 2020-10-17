@@ -16,7 +16,14 @@
 }
 
 .navigation-links {
+  width: 100vw;
+  height: 200px;
   margin: 0px;
+  padding: 0px;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  text-align: center;
 }
 
 .navigation-links > li {
