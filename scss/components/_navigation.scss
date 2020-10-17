@@ -3,6 +3,19 @@
 /*                 Navigation                    */
 /* ============================================= */
 
-.navigation-list > li {
-  list-style: none;
+.navigation-container {
+  background-color: maroon;
+}
+
+.logo-container {
+  p {
+    margin: 0px;
+  }
+}
+
+.navigation-links {
+  margin: 0px;
+  > li {
+    list-style: none;
+  }
 }
