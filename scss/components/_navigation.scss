@@ -5,36 +5,65 @@
 
 .navigation-container {
   background-color: $color-1;
-  height: 60px;
+  height: 65px;
+  position: sticky;
+  top: 0;
 }
 
 .logo-container {
   p {
-    margin: 0px;
-    padding-left: 20px;
-    padding-top: 18px;
+    margin: 3px 0px;
+    padding-left: 12px;
     color: white;
+    font-family: $font-2;
+    font-size: 2.5rem;
   }
+}
+
+#logo-m-letter {
+  font-family: $font-1;
+  font-weight: 500;
+  padding: 0px 5px;
+  color: $color-1;
+  background-color: white;
+  border-radius: 6px;
+}
+
+#logo-rest {
+  display: none;
 }
 
 .links-container {
   background-color: $color-1;
   width: 100vw;
-  height: 200px;
+  height: 400px;
   margin: 0px;
   padding: 0px;
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 65px;
+  transform: translateX(-100%);
+  transition: all 500ms ease;
+}
+
+.toggle-img {
+  width: 45px;
+  margin: 10px;
+  &:hover {
+    transition: all 500ms ease;
+  }
 }
 
 .navigation-links {
-  margin-top: 50px;
+  margin-top: 70px;
   padding: 0px;
   text-align: center;
+  font-family: $font-2;
+  font-size: 1.25rem;;
   > li {
-    margin-top: 10px;
+    margin-top: 20px;
     list-style: none;
     color: white;
+    text-shadow: 2px 2px #000;
   }
 }

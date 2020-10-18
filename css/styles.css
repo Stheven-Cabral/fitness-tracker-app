@@ -7,42 +7,78 @@
 /* ============================================= */
 /*             Styling Variables                 */
 /* ============================================= */
+/* Color Variables*/
+/* Font Variables*/
 /* ============================================= */
 /*                 Navigation                    */
 /* ============================================= */
 .navigation-container {
   background-color: #410505;
-  height: 60px;
+  height: 65px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .logo-container p {
-  margin: 0px;
-  padding-left: 20px;
-  padding-top: 18px;
+  margin: 3px 0px;
+  padding-left: 12px;
   color: white;
+  font-family: "Aldrich", sans-serif;
+  font-size: 2.5rem;
+}
+
+#logo-m-letter {
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 500;
+  padding: 0px 5px;
+  color: #410505;
+  background-color: white;
+  border-radius: 6px;
+}
+
+#logo-rest {
+  display: none;
 }
 
 .links-container {
   background-color: #410505;
   width: 100vw;
-  height: 200px;
+  height: 400px;
   margin: 0px;
   padding: 0px;
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 65px;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.toggle-img {
+  width: 45px;
+  margin: 10px;
+}
+
+.toggle-img:hover {
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .navigation-links {
-  margin-top: 50px;
+  margin-top: 70px;
   padding: 0px;
   text-align: center;
+  font-family: "Aldrich", sans-serif;
+  font-size: 1.25rem;
 }
 
 .navigation-links > li {
-  margin-top: 10px;
+  margin-top: 20px;
   list-style: none;
   color: white;
+  text-shadow: 2px 2px #000;
 }
 
 /* ============================================= */
@@ -52,8 +88,20 @@
   width: 100vw;
   height: 100vh;
   background-color: black;
-  background-image: url("../../images/chalk-prep.jpg");
+  background-image: url("../../images/chalk-prep-bw.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.hero-text-container h1 {
+  font-family: "Allerta Stencil", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.hero-text-container h1 span {
+  font-family: "Aldrich", sans-serif;
+  font-size: 2.5rem;
 }
 /*# sourceMappingURL=styles.css.map */

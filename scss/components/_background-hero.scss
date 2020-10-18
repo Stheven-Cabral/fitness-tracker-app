@@ -6,7 +6,20 @@
   width: 100vw;
   height: 100vh;
   background-color: black;
-  background-image: url("../../images/chalk-prep.jpg");
+  background-image: url("../../images/chalk-prep-bw.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.hero-text-container {
+  h1 {
+    font-family: $font-1;
+    color: white;
+    font-weight: 500;
+    font-size: 4rem;
+    span {
+      font-family: $font-2;
+      font-size: 2.5rem;
+    }
+  }
 }
