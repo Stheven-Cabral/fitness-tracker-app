@@ -41,6 +41,13 @@
   display: none;
 }
 
+@media (min-width: 576px) {
+  #logo-rest {
+    display: inline;
+    font-size: 1.7rem;
+  }
+}
+
 .links-container {
   background-color: #410505;
   width: 100vw;
@@ -93,6 +100,12 @@
   background-position: center;
 }
 
+@media (min-width: 576px) {
+  #hero-container {
+    background-image: url("../../images/shoulder-press-bw.jpg");
+  }
+}
+
 .hero-text-container {
   padding-top: 65px;
 }
@@ -106,10 +119,28 @@
   text-align: center;
 }
 
+@media (min-width: 576px) {
+  .hero-text-container h1 {
+    display: none;
+  }
+}
+
 .hero-text-container h1 span {
   font-family: "Aldrich", sans-serif;
   font-size: 3.6rem;
   text-shadow: 1px 1px 1px black;
+}
+
+@media (min-width: 576px) {
+  .hero-text-container {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-text-container {
+    padding-top: 100px;
+  }
 }
 
 .hero-text-container h3 {
@@ -119,17 +150,45 @@
   text-align: center;
 }
 
+@media (min-width: 576px) {
+  .hero-text-container h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-text-container h3 {
+    font-size: 3rem;
+    padding: 10px 0px;
+  }
+}
+
 .hero-text-container h5 {
   margin-top: 60px;
+  padding: 0px 15px;
   color: white;
   font-weight: 200;
   text-align: center;
   text-shadow: 2px 2px 5px black;
 }
 
+@media (min-width: 576px) {
+  .hero-text-container h5 {
+    margin-top: 30px;
+    padding: 0px 50px;
+    font-size: 1.1rem;
+  }
+}
+
 #your-text {
   font-family: "Sarina", cursive;
   padding-top: 100px;
+}
+
+@media (min-width: 576px) {
+  #your-text {
+    padding-top: 45px;
+  }
 }
 
 #last-text {
@@ -153,6 +212,8 @@ button {
   border-radius: 24px;
   font-family: "Aldrich", sans-serif;
   font-size: 1.4rem;
+  -webkit-box-shadow: 0px 0px 5px 1px black;
+          box-shadow: 0px 0px 5px 1px black;
 }
 
 button:hover {
@@ -166,5 +227,11 @@ button:hover {
 
 button:focus {
   outline: none;
+}
+
+@media (min-width: 576) {
+  button {
+    font-size: 1.3rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

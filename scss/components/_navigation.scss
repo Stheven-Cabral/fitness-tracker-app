@@ -31,6 +31,10 @@
 
 #logo-rest {
   display: none;
+  @media (min-width: 576px) {
+    display: inline;
+    font-size: 1.7rem;
+  }
 }
 
 .links-container {
