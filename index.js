@@ -4,7 +4,7 @@ const linksContainer = document.querySelector(".links-container");
 
 
 /***
- * `toggleMenu` function - Toggles the visibility of the menu when the toggle button (only visible on view widths below 768px) is clicked.
+ * `toggleMenu` function - Toggles the visibility of the navigation links menu when the toggle button (only visible on view widths below 768px) is clicked.
  */
 function toggleMenu () {
   menuToggle.addEventListener("click", (event) => {
