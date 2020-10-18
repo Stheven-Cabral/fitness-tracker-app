@@ -85,7 +85,6 @@
   margin: 0px;
   padding: 0px;
   position: absolute;
-  left: 0;
   top: 65px;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -95,12 +94,14 @@
 
 @media (min-width: 992px) {
   .links-container {
+    width: auto;
+    top: 0px;
+    right: 0px;
     background-color: transparent;
     height: 65px;
     padding-right: 30px;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
-    top: 0;
   }
 }
 
@@ -257,7 +258,7 @@
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .hero-text-container h5 {
     margin-top: 200px;
     font-size: 1.8rem;
