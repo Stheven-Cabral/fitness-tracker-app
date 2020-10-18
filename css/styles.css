@@ -93,15 +93,78 @@
   background-position: center;
 }
 
+.hero-text-container {
+  padding-top: 65px;
+}
+
 .hero-text-container h1 {
   font-family: "Allerta Stencil", sans-serif;
   color: white;
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 5.1rem;
+  text-shadow: 8px 2px 2px #410505;
+  text-align: center;
 }
 
 .hero-text-container h1 span {
   font-family: "Aldrich", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.6rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hero-text-container h3 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+.hero-text-container h5 {
+  margin-top: 60px;
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+
+#your-text {
+  font-family: "Sarina", cursive;
+  padding-top: 100px;
+}
+
+#last-text {
+  font-family: "Gugi", cursive;
+}
+
+#ft-text {
+  font-family: "Aldrich", sans-serif;
+}
+
+/* ============================================= */
+/*                    Button                     */
+/* ============================================= */
+button {
+  background-color: #410505;
+  color: white;
+  width: 170px;
+  height: 50px;
+  margin-top: 30px;
+  border: 2px solid #410505;
+  border-radius: 24px;
+  font-family: "Aldrich", sans-serif;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  background-color: #830b0b;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  border-color: #830b0b;
+}
+
+button:focus {
+  outline: none;
 }
 /*# sourceMappingURL=styles.css.map */

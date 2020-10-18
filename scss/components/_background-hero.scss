@@ -12,14 +12,46 @@
 }
 
 .hero-text-container {
+  padding-top: 65px;
   h1 {
     font-family: $font-1;
     color: white;
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 5.1rem;
+    text-shadow: 8px 2px 2px $color-1;
+    text-align: center; 
     span {
       font-family: $font-2;
-      font-size: 2.5rem;
+      font-size: 3.6rem;
+      text-shadow: 1px 1px 1px black;
     }
   }
+
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+  }
+
+  h5 {
+    margin-top: 60px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+  }
+}
+
+#your-text{
+  font-family: $font-3;
+  padding-top: 100px;
+}
+
+#last-text{
+  font-family: $font-4;
+}
+
+#ft-text{
+  font-family: $font-2;
 }

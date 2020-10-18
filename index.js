@@ -6,7 +6,6 @@ const linksContainer = document.querySelector(".links-container");
  */
 function toggleMenu () {
   menuToggle.addEventListener("click", (event) => {
-    console.log(event);
     if(linksContainer.style.transform != 'translateX(0%)') {
       menuToggle.style.transform = 'rotate(90deg)';
       linksContainer.style.transform = 'translateX(0%)';
