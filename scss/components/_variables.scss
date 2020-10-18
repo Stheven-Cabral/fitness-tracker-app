@@ -3,13 +3,17 @@
  /* ============================================= */
 
 
- /* Color Variables*/
+ /* Color Variables */
  $color-1: rgb(65, 5, 5);
  $color-2: rgb(131, 11, 11);
 
 
- /* Font Variables*/
+ /* Font Variables */
  $font-1: 'Allerta Stencil', sans-serif;
  $font-2: 'Aldrich', sans-serif;
  $font-3: 'Sarina', cursive;
  $font-4: 'Gugi', cursive;
+
+/* Transition Variables */
+
+$transition-1: all 500ms ease;

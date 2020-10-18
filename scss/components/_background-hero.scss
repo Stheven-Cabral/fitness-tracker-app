@@ -36,6 +36,12 @@
     padding-top: 0;
   }
   @media (min-width: 768px) {
+    padding-top: 150px;
+  }
+  @media (min-width: 992px) {
+    padding-top: 250px;
+  }
+  @media (min-width: 1200px) {
     padding-top: 100px;
   }
 
@@ -59,11 +65,15 @@
     color: white;
     font-weight: 200;
     text-align: center;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 3px 3px 4px black;
     @media (min-width: 576px) {
       margin-top: 30px;
       padding: 0px 50px;
       font-size: 1.1rem;
+    }
+    @media (min-width: 576px) {
+      margin-top: 200px;
+      font-size: 1.8rem;
     }
   }
 }

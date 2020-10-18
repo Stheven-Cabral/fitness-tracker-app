@@ -5,6 +5,7 @@
 
 .navigation-container {
   background-color: $color-1;
+  width: 100vw;
   height: 65px;
   position: sticky;
   top: 0;
@@ -17,6 +18,9 @@
     color: white;
     font-family: $font-2;
     font-size: 2.5rem;
+    @media (min-width: 768px) {
+      margin-left: 8px;
+    }
   }
 }
 
@@ -37,6 +41,20 @@
   }
 }
 
+.toggle-img {
+  width: 45px;
+  margin: 10px;
+  &:hover {
+    transition: $transition-1;
+  }
+  @media (min-width: 768px) {
+    margin-right: 20px;
+  }
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+
 .links-container {
   background-color: $color-1;
   width: 100vw;
@@ -47,14 +65,13 @@
   left: 0;
   top: 65px;
   transform: translateX(-100%);
-  transition: all 500ms ease;
-}
-
-.toggle-img {
-  width: 45px;
-  margin: 10px;
-  &:hover {
-    transition: all 500ms ease;
+  transition: $transition-1;
+  @media (min-width: 992px) {
+    background-color: transparent;
+    height: 65px;
+    padding-right: 30px;
+    transform: translateX(0%);
+    top: 0;
   }
 }
 
@@ -69,5 +86,25 @@
     list-style: none;
     color: white;
     text-shadow: 2px 2px #000;
+    @media(min-width: 992px) {
+      margin: 0px;
+      padding: 0px 15px;
+      font-size: 0.9rem;
+      font-weight: 100;
+      line-height: 65px;
+      border-radius: 2px;
+      &:hover {
+        background-color: white;
+        color: $color-1;
+        text-shadow: none;
+        transition: $transition-1;
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 0px;
   }
 }
