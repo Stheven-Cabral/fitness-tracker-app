@@ -1,5 +1,7 @@
+/*** Variables */
 const menuToggle = document.querySelector(".toggle-img");
 const linksContainer = document.querySelector(".links-container");
+
 
 /***
  * `toggleMenu` function - Toggles the visibility of the menu when the toggle button (only visible on view widths below 768px) is clicked.
